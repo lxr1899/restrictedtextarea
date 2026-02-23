@@ -5,20 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restricted textarea </title>
     <link rel="stylesheet" href="style.css"/>
-    <script src="script.js"></script>
 </head>
 <body>
     <div class="main">
         <h2> Write your message</h2>
-        <div id="txt1">
-            <textarea maxlength="250" rows="5" placeholder="Start typing..."></textarea> </div>
-        <div>
-        <div id="txt2">
-            <textarea maxlength="250" rows="5">It has a live character count</textarea>
+        <div id="txtD1" class="correct">
+            <textarea class="txt" id="txt1" maxlength="250" rows="5" placeholder="Start typing..."></textarea>
+            <span id="span1"></span>
         </div>
-        <div id="txt3">
-            <textarea maxlength="250" rows="5">You're not allowed to type more than 250 characters</textarea>
+        <div id="txtD2" class="correct">
+            <textarea class="txt" id="txt2" maxlength="250" rows="5">It has a live character count</textarea>
+            <span id="span2"></span>
+        </div>
+        <div id="txtD3" class="correct">
+            <textarea class="txt" id="txt3" maxlength="250" rows="5">You're not allowed to type more than 250 characters</textarea>
+            <span id="span3"></span>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
