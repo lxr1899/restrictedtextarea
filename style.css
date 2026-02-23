@@ -1,46 +1,46 @@
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.correct{
-    padding: 12px;
-    margin-bottom: 1%;
-    position: relative;
-    box-sizing: border-box;
-    border-radius: 20px;
-    width: 20%;
-    height: 125px;
-    border: 2px solid black;
-    color: black;
+.correct {
+  padding: 12px;
+  margin-bottom: 1%;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 20%;
+  height: 125px;
+  border: 2px solid black;
+  color: black;
 }
 
-.error{
-    padding: 12px;
-    margin-bottom: 1%;
-    position: relative;
-    box-sizing: border-box;
-    border-radius: 20px;
-    width: 20%;
-    height: 125px;
-    border: 2px solid red;
-    color: red;
+.error {
+  padding: 12px;
+  margin-bottom: 1%;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 20%;
+  height: 125px;
+  border: 2px solid red;
+  color: red;
 }
 
-.txt{
-    color: black;
+.txt {
+  color: black;
 }
 
-.txtError{
-    color: red;
+.txtError {
+  color: red;
 }
 
-textarea{
-    width: 100%;
-    border: none;
-    outline: none;
-    resize: none;
+textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
 }
 
-span{
-    float: right;
+span {
+  float: right;
 }
